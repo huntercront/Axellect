@@ -582,7 +582,7 @@ html {
 }
 .hero-content {
    display: grid;
-   grid-template-columns: 4fr 3fr;
+   grid-template-columns: 4fr 2fr;
    align-items: center;
    column-gap: 3rem;
 }
@@ -598,7 +598,9 @@ html {
 .hero-content .lazy-img img {
    width: auto;
    height: 100%;
-   margin-left: 20%;
+   margin-left: 15%;
+   transform: scale(1.1);
+   transform-origin: center center;
 }
 /* custom-list */
 .custom-list {
