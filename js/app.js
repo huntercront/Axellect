@@ -35,7 +35,7 @@ Loader.prototype = {
 };
 
 var l = new Loader();
-l.require(["../js/lazy-load.js"], function () {
+l.require(["./js/lazy-load.js"], function () {
    var callback_loaded = function (element) {
       element.classList.remove("lazy");
       if (element.closest(".lazy-img")) {
@@ -48,7 +48,7 @@ l.require(["../js/lazy-load.js"], function () {
 });
 
 var l = new Loader();
-l.require(["../js/scroll.js"], function () {});
+l.require(["./js/scroll.js"], function () {});
 
 document.addEventListener("DOMContentLoaded", function (event) {
    document.body.classList.remove("loading");
