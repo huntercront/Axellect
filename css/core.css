@@ -517,11 +517,11 @@ html {
 }
 .nav {
    display: grid;
-   grid-template-columns: 12.5rem 1fr;
+   grid-template-columns: 15rem 1fr;
    column-gap: 2rem;
 }
 .header .logo {
-   max-width: 14rem;
+   max-width: 15rem;
 }
 .contacts {
    justify-self: end;
@@ -585,10 +585,9 @@ html {
    grid-template-columns: 4fr 2fr;
    align-items: center;
    column-gap: 3rem;
+   padding: 4rem 0 7rem 0;
 }
-.hero-text {
-   padding: 5rem 0 7rem 0;
-}
+
 .hero-text p {
    max-width: 35rem;
 }
@@ -598,9 +597,6 @@ html {
 .hero-content .lazy-img img {
    width: auto;
    height: 100%;
-   margin-left: 15%;
-   transform: scale(1.1);
-   transform-origin: bottom center;
 }
 /* custom-list */
 .custom-list {
